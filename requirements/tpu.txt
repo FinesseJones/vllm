@@ -25,3 +25,4 @@ torch_xla[tpu, pallas] @ https://storage.googleapis.com/pytorch-xla-releases/whe
 torch_xla[tpu, pallas] @ https://storage.googleapis.com/pytorch-xla-releases/wheels/tpuvm/torch_xla-2.8.0.dev20250618-cp311-cp311-linux_x86_64.whl ; python_version == "3.11"
 
 ray>=2.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
