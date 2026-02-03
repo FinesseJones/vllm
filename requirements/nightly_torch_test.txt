@@ -45,3 +45,4 @@ mistral-common==1.6.2
 
 schemathesis==3.39.15  # Required for openai schema test.
 mteb>=1.38.11, <2 # required for mteb test
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
